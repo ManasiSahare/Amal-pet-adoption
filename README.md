@@ -1,1 +1,1 @@
-# Amal-pet-adoption
+# Amal-pet-shop (pet adoption website)
