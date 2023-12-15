@@ -1,0 +1,155 @@
+r̥ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buyer Form</title>
+    <!---------Bootstrap CDN----------->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+<!----------Font Awsome CDN------->
+<script src="https://kit.fontawesome.com/d0ff92c3b3.js" crossorigin="anonymous"></script>
+<!------Slick Slider-------->
+<link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+<!--------Custom Stylesheet------->
+    <link href="./css/forms.css" type="text/css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="conatiner">
+            <div class="row">
+                <div class="col-md-4 col-sm-12 col-12">
+                    <div class="btn-group">
+                        <button class="btn border dropdown-toggle my-md-4 text-white" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">USD</button>
+                        <div class="dropdown-menu">
+                            <a href="#" class="dropdown-item">ERU-Euro</a>
+                            <a href="#" class="dropdown-item">RPU-Rupee</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-12 text-center">
+                    <h2 class="my-md-3 site-title text-white">Online Pet Adoption Website</h2>
+                </div>
+                <div class="col-md-4 col-12 text-right">
+                    <p class="my-md-4 header-links">
+                        <a href="#" class="px-2">Sign In</a>
+                        <a href="#" class="px-1">Create An Account</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid p-0">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light bg-white">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                  <ul class="navbar-nav">
+                    <li class="nav-item active">
+                      <a class="nav-link" href="./index.html">HOME<span class="sr-only"></span></a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">FEATURES</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">COLLECTION</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">ABOUT US</a>
+                      </li>
+                  </ul>
+                </div>
+                <div class="navbar-nav">
+                    <li class="nav-item border rounded-circle mx-2 search-icon">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </li>
+                    <li class="nav-item border rounded-circle mx-2 basket-icon">
+                        <i class="fa-solid fa-cart-shopping"></i>
+                    </li>
+                </div>
+              </nav>
+        </div>
+            </header>
+            <div class="hero">
+                <div class="form-box">
+                    <div class="button-box">
+                        <div id="btn">
+
+                        </div>
+                        <button type="button" class="toggle-btn" onclick="personal()">Personal </button>
+                        <button type="button" class="toggle-btn" onclick="adoption()">Adoption </button>
+                    </div>
+                    <form id="personal"class="input-group " method="post" action="./thankyou.php">
+                        <input type="text" class="input-field" placeholder="First Name" required name="fname">
+                        <input type="text" class="input-field" placeholder="Last Name" required name="lname">
+                        <input type="text" class="input-field" placeholder="E-mail"  required name="email">
+                        <input type="text" class="input-field" placeholder="Phone Number" required name="pno"> 
+                        <label class="input-field">Select The Type Of Pet</label>
+                        <select class="input-filed" name="pet">
+                            <option value="Golden Retriever" id="Golden Retriever" name="pet" class="input-group">Golden Retriever</option>
+                            <option value="Persian Cat" id="Persian Cat" name="pet" class="input-group">Persian Cat</option>
+                            <option value="Alaskan Rabbit" id="Alaskan Rabbit" name="pet" class="input-group">Alaskan Rabbit</option>
+                            <option value="Madagascar Love Birds" id="Madagascar Love Birds" name="pet" class="input-group">Madagascar Love Birds</option>
+                            <option value="Madagascar Sparrows" id="Madagascar Sparrows" name="pet" class="input-group">Madagascar Sparrows</option>
+                            <option value="Pug" id="Pug" name="pet" class="input-group">Pug</option>
+                            <option value="Bony Fish" id="Bony Fish" name="pet" class="input-group">Bony Fish</option>
+                            <option value="Abyssian Horse" id="Abyssian Horse" name="pet" class="input-group">Abyssian Horse</option>
+                            <option value="German Shepard" id="German Shepard" name="pet" class="input-group">German Shepard</option>
+                            <option value="American Short hair" id="American Short hair" name="pet" class="input-group">American Short hair</option>
+                            <option value="Rex Rabbit" id="Rex Rabbit" name="pet" class="input-group">Rex Rabbit</option>
+                            <option value="Cat Fish" id="Cat Fish" name="pet" class="input-group">Cat Fish</option>
+                           
+                        </select>
+                       <label class="input-field" >Enter your card number</label>
+                       <input type="text" class="input-field" name="date_of_purchase">
+                        <label>Answer In Detail Why Do You Want A Pet </label>
+                        <input type="textarea" rows="3" cols="3" class="input-field" name="detail">
+                      <button type="submit" class="submit-btn" name="submit">Submit</button>
+
+                    </form>
+        </div>
+
+
+               
+            <footer class="footer">
+                <div class="container">
+                    <div class="about-me">
+                        <h2>About Us</h2>
+                        <p>We are a non-prfitable organization that helps people to adopt a pet and thereby, a new lifestyle</p>
+                        <div class="instagram">
+                            <h2>Pet Adoption : A Virtue</h2>
+                            <div class="flex-row">
+                                <img src="./images/image24.jpg" alt="pic1">
+                                <img src="./images/image25.jpg" alt="pic2">
+                                <img src="./images/image26.jpg" alt="pic3">
+                            </div>
+                            <div class="flex-row">
+                                <img src="./images/image27.jpg" alt="pic4">
+                                <img src="./images/image28.jpg" alt="pic5">
+                                <img src="./images/image29.jpg" alt="pic6">
+                            </div>
+                            <div class="follow">
+                                <h2>Follow Us</h2>
+                                <P>Connect with Us</P>
+                                <a href="#"><i class="fa-brands fa-square-facebook"></i></a>
+                        <a href="#"><i class="fa-brands fa-square-instagram"></i></a>
+                        <a href="#"><i class="fa-brands fa-square-twitter"></i></a>
+                        <a href="#"><i class="fa-brands fa-youtube"></i></a>
+            
+                            </div>
+                        </div>
+                        <div class="rights flex-row">
+                            <p class="text-gray">Copyright <i class="fa-sharp fa-solid fa-copyright"></i> 2022 Saraswati Patel and Manasi Sahare <br>All Rights Reserved</p>
+                        </div>
+                    </div>
+                    <div class="move-up">
+                        <span><i class="fa-solid fa-circle-arrow-up"></i></i></span>
+                    </div>
+                </div>
+            </div>
+            </footer>
+    
+</body>
+
+</html>

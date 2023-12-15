@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pet Adoption Website</title>
+    <head>
+     <!---------Bootstrap CDN----------->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+<!----------Font Awsome CDN------->
+<script src="https://kit.fontawesome.com/d0ff92c3b3.js" crossorigin="anonymous"></script>
+<!------Slick Slider-------->
+<link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+<!--------Custom Stylesheet------->
+<link rel="stylesheet" href="./css/style.css" type="text/css">
+</head>
+   
+<body>
+    <header>
+<div class="conatiner">
+    <div class="row">
+        <div class="col-md-4 col-sm-12 col-12">
+            <div class="btn-group">
+               
+            </div>
+        </div>
+        <div class="col-md-4 col-12 text-center">
+            <h2 class="my-md-3 site-title text-white">AMAL <br>Pet Shop</h2>
+        </div>
+        <div class="col-md-4 col-12 text-right">
+            <p class="my-md-4 header-links">
+                <a href="./index.html" class="px-2">Log Out</a>
+                <a href="./createaccount.html" class="px-1">Create An Account</a>
+            </p>
+        </div>
+    </div>
+</div>
+<div class="container-fluid p-0">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light bg-white">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item active">
+              <a class="nav-link" href="./index.html">HOME<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">FEATURES</a>
+            </li>
+           
+            <li class="nav-item">
+                <a class="nav-link" href="./aboutus.html">ABOUT US</a>
+              </li>
+              <li class="nav-item">
+              <a class="nav-link" href="./contactus.html">CONTACT US</a>
+            </li>
+          </ul>
+        </div>
+        <div class="navbar-nav">
+            <li class="nav-item border rounded-circle mx-2 search-icon">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </li>
+            <li class="nav-item border rounded-circle mx-2 basket-icon">
+                <i class="fa-solid fa-cart-shopping"></i>
+            </li>
+        </div>
+      </nav>
+</div>
+    </header>
+    <!-------Main Section---------->
+    <main>
+        <!------First Slider------------>
+        <div class="container-fluid p-0">
+            <div class="site-slider">
+                <div class="slider-one">
+                    <div>
+                        <img src="./images/image1.jpg" alt="pic1" class="img-fluid">
+                    </div>
+                    <div>
+                        <img src="./images/image2.jpg" alt="pic2" class="img-fluid">
+                    </div>
+                    <div>
+                        <img src="./images/image3.jpg" alt="pic3" class="img-fluid">
+                    </div>
+
+                </div>
+                <div class="slider-btn">
+                    <span class="prev position-top">
+                        <i class="fas fa-chevron-left"></i>
+                    </span>
+                    <span class="next position-top right-0">
+                        <i class="fas fa-chevron-right"></i>
+                    </span>
+                </div>
+            </div>
+        </div>
+        <!---x---First Slider--x---------->
+        <!----------Second Slider--------->
+        <div class="cat">
+            <h2 align="center">CATEGORIES</h2>
+            <div class="row">
+                
+                <div class="col-3">
+                    <img src="./images/image4.jpg" alt="animals" height="350px" width="275px">
+                </div>
+                <div class="col-3">
+                    <img src="./images/image7.jpg" alt="birds" height="350px" width="275px">
+                </div>
+                <div class="col-3">
+                    <img src="./images/image6.jpg" alt="fishes" height="350px" width="275px">
+                </div>
+                <div class="col-3">
+                    <img src="./images/image10.jpg" alt="poultry" height="350px" width="275px">
+                </div>
+            </div>
+        </div>
+        <!----x------Second Slider------x-->
+        <!-----------Featured Products------->
+        <div class="small-container">
+            <h2 align="center">Featured Pets</h2>
+            <div class="row">
+                <div class="col-4">
+                    <img src="./images/image11.jpg" alt="golden retriever" height="300px" width="265px">
+                    <h4>Golden Retriever</h4>
+                    <p>Rs.12000</p>
+                    <a href="./form.html" class="btn">Adopt Now </a>
+                </div>
+                <div class="col-4">
+                    <img src="./images/image12.jpg" alt="golden retriever" height="300px" width="265px">
+                    <h4>Persian Cat</h4>
+                    <p>Rs.11200</p>
+                    <a href="./form.html" class="btn">Adopt Now </a>
+                </div>
+                <div class="col-4">
+                    <img src="./images/image13.jpg" alt="Alaskan Rabbit" height="300px" width="265px">
+                    <h4>Alaskan Rabbit</h4>
+                    <p>Rs.1200</p>
+                    <a href="./form.html"" class="btn">Adopt Now </a>
+                </div>
+                <div class="col-4">
+                    <img src="./images/image14.jpg" alt="Alaskan Rabbit" height="300px" width="265px">
+                    <h4>Madagascar Love Birds</h4>
+                    <p>Rs.1360</p>
+                    <a href="./form.html" class="btn">Adopt Now </a>
+                </div>
+                <div class="col-4">
+                    <img src="./images/image15.jpg" alt="Alaskan Rabbit" height="300px" width="265px">
+                    <h4>Madagascar Sparrows</h4>
+                    <p>Rs.16000</p>
+                    <a href="./form.html" class="btn">Adopt Now </a>
+                </div>
+                <div class="col-4">
+                    <img src="./images/image16.jpg" alt="Alaskan Rabbit" height="300px" width="265px">
+                    <h4>Pug</h4>
+                    <p>Rs.9000</p>
+                    <a href="./form.html" class="btn">Adopt Now </a>
+                </div>
+                <div class="col-4">
+                    <img src="./images/image17.jpg" alt="Alaskan Rabbit" height="300px" width="265px">
+                    <h4>Bony Fish</h4>
+                    <p>Rs.1300</p>
+                    <a href="./form.html"class="btn">Adopt Now </a>
+                </div>
+                <div class="col-4">
+                    <img src="./images/image18.jpg" alt="Alaskan Rabbit" height="300px" width="265px">
+                    <h4>Abyssian Horse</h4>
+                    <p>Rs.22300</p>
+                    <a href="./form.html" class="btn">Adopt Now </a>
+                </div>
+                <div class="col-4">
+                    <img src="./images/image19.jpg" alt="Alaskan Rabbit" height="300px" width="265px">
+                    <h4>German Shepard</h4>
+                    <p>Rs.23000</p>
+                    <a href="./form.html" class="btn">Adopt Now </a>
+                </div>
+                <div class="col-4">
+                    <img src="./images/image20.jpg" alt="Alaskan Rabbit" height="300px" width="265px">
+                    <h4>American Short hair </h4>
+                    <p>Rs.3300</p>
+                    <a href="./form.html" class="btn">Adopt Now </a>
+                </div>
+                <div class="col-4">
+                    <img src="./images/image21.jpg" alt="Alaskan Rabbit" height="300px" width="265px">
+                    <h4>Rex Rabbit</h4>
+                    <p>Rs.2000</p>
+                    <a href="./form.html" class="btn">Adopt Now </a>
+                </div>
+                <div class="col-4">
+                    <img src="./images/image22.jpg" alt="Alaskan Rabbit" height="300px" width="265px">
+                    <h4>Cat Fish</h4>
+                    <p>Rs.2300</p>
+                    <a href="./form.html" class="btn">Adopt Now </a>
+                </div>
+            </div>
+        </div>
+        <!----x-------Featured Products---x---->
+        <!------Offer Section--------------->
+        <div class="offer">
+            <div class="small-container">
+        <div class="row">
+                <div class="col-2">
+                    <img src="./images/image23.jpg" class="offer-img" height="400px" width="250px">
+                </div>
+                <div class="col-2">
+                    <p>For all the bird lovers out there </p>
+                    <h1>Madagascar Macaw</h1>
+                    <big>Take home the most beautiful continental bird and make it your own. Specifications of the Macaw: <br><b>Long Tailed <br>Companion Parrot <br>More than 50 years of life span<br>43 inches of wingspan<br>High Adaptability<br>Extremely Friendly<br></b></big> 
+                    <a href="./form.html" class="btn">Adopt Now</a>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </div>
+
+
+    </main>
+    <!----x---Main Section------x---->
+    <!----------footer---------------------->
+    <footer class="footer">
+        <div class="container">
+            <div class="about-me">
+                <h2>About Us</h2>
+                <p>We are a non-prfitable organization that helps people to adopt a pet and thereby, a new lifestyle</p>
+                <div class="instagram">
+                    <h2>Pet Adoption : A Virtue</h2>
+                    <div class="flex-row">
+                        <img src="./images/image24.jpg" alt="pic1">
+                        <img src="./images/image25.jpg" alt="pic2">
+                        <img src="./images/image26.jpg" alt="pic3">
+                    </div>
+                    <div class="flex-row">
+                        <img src="./images/image27.jpg" alt="pic4">
+                        <img src="./images/image28.jpg" alt="pic5">
+                        <img src="./images/image29.jpg" alt="pic6">
+                    </div>
+                    <div class="follow">
+                        <h2>Follow Us</h2>
+                        <P>Connect with Us</P>
+                        <a href="#"><i class="fa-brands fa-square-facebook"></i></a>
+                <a href="#"><i class="fa-brands fa-square-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-square-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-youtube"></i></a>
+    
+                    </div>
+                </div>
+                <div class="rights flex-row">
+                    <p class="text-gray">Copyright <i class="fa-sharp fa-solid fa-copyright"></i> 2022 Saraswati Patel and Manasi Sahare <br>All Rights Reserved</p>
+                </div>
+            </div>
+            <div class="move-up">
+                <span><i class="fa-solid fa-circle-arrow-up"></i></i></span>
+            </div>
+        </div>
+    </footer>
+    <!----x------footer------------x-------->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+<script src="./js/main.js" ></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+<?php
+$servername="localhost";
+$username="root";
+$password="";
+$database_name="pet adoption";
+$conn=mysqli_connect($servername,$username,$password,$database_name);
+//checking the connection
+if(!$conn)
+{
+    die("Connection Failed" .mysqli_connect_error());
+}
+if(isset($_POST['submit']))
+{
+    $uname=$_POST['uname'];
+    $pass=$_POST['pass'];
+    $sql_query="INSERT INTO logindetails (uname,pass) VALUES ('$uname','$pass')";
+    if(mysqli_query($conn,$sql_query))
+    {
+        echo '<script> alert("You have sucessfully signed in and redirected to home page") </script>';
+    }
+    else
+    {
+        echo "Error" .mysqli_error($conn);
+    }
+    mysqli_close($conn);
+}
+?>
